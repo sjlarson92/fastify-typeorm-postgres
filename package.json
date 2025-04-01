@@ -1,0 +1,32 @@
+{
+  "name": "fastify-typeorm-postgres",
+  "version": "1.0.0",
+  "description": "Fastify node app with TypeORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjlarson92/fastify-typeorm-postgres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjlarson92/fastify-typeorm-postgres/issues"
+  },
+  "homepage": "https://github.com/sjlarson92/fastify-typeorm-postgres#readme",
+  "dependencies": {
+    "fastify": "^5.2.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.13.14",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
