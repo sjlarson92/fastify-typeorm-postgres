@@ -57,6 +57,7 @@ server.listen({ port: 8080 }, (err, address) => {
 {
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "dev": "nodemon index.ts",
     "start": "node build/index.js" # the tsconfig.json puts .js files in the outDir folder which is set to /build
   }
 }
